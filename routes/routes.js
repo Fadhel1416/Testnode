@@ -21,7 +21,7 @@ router.post('/product/add', async(req, res) => {
 })
 
 //Get all Method
-router.get('/getProduct',cors(corsOptions),async (req, res) => {
+router.get('/getProduct',async (req, res) => {
     try{
         const data = await Model.find();
 
