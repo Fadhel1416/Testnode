@@ -29,6 +29,8 @@ app.use(function(req, res, next) {
 
 app.use(express.json());
 app.use('/api', routes);
-app.listen(5000, () => {
+const PORT = process.env.PORT ||5000;
+
+app.listen(PORT, () => {
     console.log(`Server Started at ${5000}`)
 })
