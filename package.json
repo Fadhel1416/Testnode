@@ -1,10 +1,19 @@
 {
-  "name": "Testnode",
-  "version": "0.1.0",
-  "private": true,
-  "main":"index.js",
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.24.0",
+   "axios": "^0.24.0",
     "body-parser": "^1.20.0",
     "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
@@ -14,11 +23,8 @@
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "mongoose": "^6.6.1"
-
   },
-  "scripts": {
-    "start": "node index.js"
-
+  "engines": {
+    "node": "14.x"
   }
-
 }
